@@ -328,12 +328,24 @@
 }
 .project-item {
   text-decoration: none;
+  position: relative;
 }
 .project-link {
-   width: 370px;
-   height: 404px;
-   border: 1px solid var(--portfolio-projects-border-color);
-   transition: box-shadow var(--transition);
+  width: 370px;
+  height: 404px;
+  border: 1px solid var(--portfolio-projects-border-color);
+  transition: box-shadow var(--transition);
+ }
+.project-top-text {
+  position: absolute;
+  top: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(28 /18);
+  color: var(--background-color);
+  background-color: rgba(33, 150, 243, 0.9);
+  padding: 63px 24px;
+  height: 100%;
  }
 .project-link:hover,
 .project-link:focus {
