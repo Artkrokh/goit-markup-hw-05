@@ -328,6 +328,8 @@
 }
 .project-item {
   text-decoration: none;
+}
+.project-top-wrap {
   position: relative;
 }
 .project-link {
