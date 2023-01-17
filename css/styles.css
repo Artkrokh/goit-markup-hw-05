@@ -532,6 +532,12 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   background-color: transparent;
+  display: flex;
+  align-items: center
+}
+.icon-close {
+  margin: 0 auto;
+  padding: 0 auto;
 }
 .is-hidden {
   opacity: 0;
