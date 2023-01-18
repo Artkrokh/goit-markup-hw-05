@@ -500,6 +500,7 @@ p {
   color: var(--accent-color);
 }
 .social-title {
+  padding: 0;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--background-color);
