@@ -103,7 +103,7 @@ p {
 }
 .contacts {
   margin-left: auto;
-  column-gap: 50px;
+  gap: 30px;
   display: flex;
 }
 .contacts-link {
