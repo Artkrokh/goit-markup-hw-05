@@ -91,10 +91,10 @@ p {
 }
 .nav-text.current {
   color: var(--accent-color);
-}
-.current {
   position: relative;
   overflow: hidden;
+}
+.current {
 }
 .current::after {
   display: block;
