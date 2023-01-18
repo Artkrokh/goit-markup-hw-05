@@ -224,6 +224,25 @@ p {
   gap: 30px;
   margin-top: 50px;
 }
+.ocupation-link {
+  position: relative;
+  overflow: hidden;
+
+}
+.ocupation-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  padding: 27px 0;
+  width: 100%;
+  color: var(--background-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}
 .team {
   background: var(--background-team);
 }
@@ -555,8 +574,7 @@ p {
 }
 .close-button:hover,
 .close-button:focus {
-  background-color: var(--accent-color);
-  fill: var(--background-color)
+  fill: var(--accent-color)
 }
 .icon-close {
   margin: 0 auto;
