@@ -467,7 +467,7 @@ p {
   text-decoration: none;
   color: var(--text-color);
 }
-.social-container:last-child {
+.social-container {
   margin-left: 70px;
 }
 .social-title {
