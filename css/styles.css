@@ -53,12 +53,10 @@ p {
   margin: 0 auto;
   padding: 0 15px;
 }
-.header {
-  border-bottom: 1px solid var(--header-line);
-}
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid var(--header-line);
 }
 .logo-title {
   color: var(--accent-color);
@@ -94,11 +92,9 @@ p {
   position: relative;
   overflow: hidden;
 }
-.current {
-}
 .current::after {
-  display: block;
   position: absolute;
+  display: block;
   content: "";
   top: 76px;
   width: 100%;
