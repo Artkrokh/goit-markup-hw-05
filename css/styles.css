@@ -543,6 +543,7 @@ p {
 }
 .basement {
   display: flex;
+  align-items: baseline;
 }
 .backdrop {
   position: fixed;
