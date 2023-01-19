@@ -362,6 +362,7 @@ p {
   cursor: pointer;
   border-radius: 4px;
   background: var(--background-button);
+  transition: background 250ms;
 }
 .project-cart {
   padding: 20px 24px;
